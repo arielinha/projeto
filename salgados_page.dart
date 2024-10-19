@@ -35,7 +35,7 @@ class ListaSalgados extends StatelessWidget {
     ),
     Salgado(
       urlImagem:
-          'https://www.finedininglovers.com/sites/g/files/xknfdk626/files/2020-12/pepperoni_pizza%C2%A9iStock.jpg', // Substitua por um link válido
+          'https://www.finedininglovers.com/sites/g/files/xknfdk626/files/2020-12/pepperoni_pizza%C2%A9iStock.jpg', 
       titulo: 'Fatia de Pizza',
       tipo: 'Assada',
       validade: 'Validade: 3 dias',
@@ -152,11 +152,11 @@ class ListaSalgados extends StatelessWidget {
                           ),
                           ElevatedButton(
                             onPressed: () {
-                              // Ação ao clicar no botão
+                             
                             },
                             style: ElevatedButton.styleFrom(
                               backgroundColor: Colors.red[
-                                  800], // Corrigido de primary para backgroundColor
+                                  800], 
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(10),
                               ),
