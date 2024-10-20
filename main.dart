@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'salgados_page.dart'; // Importa o arquivo da lista de salgados
-
+import 'salgados_page.dart'; 
 void main() {
   runApp(MyApp());
 }
@@ -11,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Salgados App',
       theme: ThemeData(primarySwatch: Colors.red),
-      home: ListaSalgados(), // Define a página inicial do app
+      home: ListaSalgados(), 
     );
   }
 }
